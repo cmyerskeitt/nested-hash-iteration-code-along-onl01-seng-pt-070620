@@ -21,6 +21,7 @@ def remove_strawberry(contacts)
             value.each do |flavor|
                 value.delete_if {|ice_cream| ice_cream == "strawberry"}
               puts "#{flavor}"
+        end 
       end
     end 
   end  
